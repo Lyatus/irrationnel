@@ -36,23 +36,18 @@ public class Manager : MonoBehaviour {
             if(randomNumber <= 70.0f)
             {
                 DoAction(eAction.ADDNAME);
-                Debug.Log("AddName");
             }
             else if(randomNumber <= 80.0f)
             {
                 DoAction(eAction.PLAYSOUND);
-                Debug.Log("PlaySound");
             }
             else if(randomNumber <= 90.0f)
             {
                 DoAction(eAction.CHANGEBACKGROUND);
-                Debug.Log("ChangeBG");
             }
             else
             {
-                //DO NOthing
                 DoAction(eAction.NOTHING);
-                Debug.Log("Nothing");
             }
         }
 	}
