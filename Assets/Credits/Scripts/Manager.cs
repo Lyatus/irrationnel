@@ -5,9 +5,13 @@ public class Manager : MonoBehaviour {
 
     public GameObject textGameObject;
 
+    public AudioClip[] sounds;
+
     float randomNumber = 0.0f;
 
     Color[] Colors = { Color.yellow, Color.red, Color.gray, Color.blue, Color.magenta, Color.black };
+
+    AudioSource audio;
 
     enum eAction
     {
@@ -20,7 +24,7 @@ public class Manager : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-	
+        audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -65,6 +69,7 @@ public class Manager : MonoBehaviour {
                 Camera.main.backgroundColor = Colors[Random.Range(0, Colors.Length)];
                 break;
             case eAction.PLAYSOUND:
+                audio.PlayOneShot(sounds[Random.Range(0, sounds.Length)]);
                 break;
             case eAction.NOTHING:
                 break;
