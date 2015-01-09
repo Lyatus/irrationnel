@@ -23,6 +23,7 @@ public class FadeToBlackScript : MonoBehaviour {
             else
             {
                 text.enabled = true;
+                Invoke("NextScene", 5);
             }
 		}
 	}
@@ -30,4 +31,8 @@ public class FadeToBlackScript : MonoBehaviour {
 	void FixedUpdate(){
 		texture.color = new Color (texture.color.r, texture.color.g, texture.color.b, opacity);
 	}
+
+    void NextScene() { Application.LoadLevel("Scene 3"); }
+
+
 }
