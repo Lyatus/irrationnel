@@ -9,7 +9,7 @@ public class InputManager : MonoBehaviour
 	{
 		if(m_cubePrefab && Input.GetKeyDown(KeyCode.Space))
 		{
-			Transform.Instantiate(m_cubePrefab, new Vector3(0, 0, 0), Quaternion.identity);
+			Transform.Instantiate(m_cubePrefab, new Vector3(0, 0, 1), Quaternion.identity);
 		}
 	}
 }
