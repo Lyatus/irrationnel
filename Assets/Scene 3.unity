@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7add75c2326ca394aa684439f43bbf28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBeforeNextScene: 70
+  timeBeforeNextScene: 50
   numberOfClicsBeforeNextScene: 200
 --- !u!4 &1186551254
 Transform:
