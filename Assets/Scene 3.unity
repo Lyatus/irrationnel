@@ -243,8 +243,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 606c0c3511188194db3e062c90564db7, type: 3}
   - {fileID: 8300000, guid: 89ed6679b4c4faa4a8d72fb7c1f41976, type: 3}
   - {fileID: 8300000, guid: 2ec8ebe73cb5f514398b41daaa632142, type: 3}
-  - {fileID: 8300000, guid: 94c442e01e7bba840bc96b60e435e3c6, type: 3}
-  - {fileID: 8300000, guid: 16bcc598326b0ab4e9b1d2e6276c5888, type: 3}
   timerKeyNotPressed: 5
 --- !u!4 &1111782359
 Transform:
@@ -367,7 +365,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400002, guid: fffaecbec4c1f1940af98e12f9b5954f, type: 2}
       propertyPath: sounds.Array.size
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fffaecbec4c1f1940af98e12f9b5954f, type: 2}
       propertyPath: m_LocalPosition.x
