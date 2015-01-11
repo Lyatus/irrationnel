@@ -135,7 +135,7 @@ public class TextManager : MonoBehaviour
                             "Les surricates de la mort",
                             "Un lapin mort",
                             "Mon chat bourré",
-                            "la géothermie",
+                            "la Géothermie",
                             "Megan Fox",
                             "Olly le clodo",
                             "Un mec sans doigt",
@@ -148,7 +148,15 @@ public class TextManager : MonoBehaviour
                             "Athuaricd",
                             "btie",
                             "Eimnem",
-                            "Hitler"
+                            "Hitler",
+                            "Sangoku",
+                            "Toute ta famille",
+                            "Anne Frank",
+                            "Gaben",
+                            "GladOs",
+                            "Une huitre",
+                            "La wiimote",
+                            "Les cacahuètes"
 
                          };
 
