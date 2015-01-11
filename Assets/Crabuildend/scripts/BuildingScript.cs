@@ -3,6 +3,7 @@ using System.Collections;
 
 public class BuildingScript : MonoBehaviour {
 
+    public AudioClip[] poofs;
 	private Transform[] childs;
 	private int pos = 1;
 	private int maxSize;
@@ -23,6 +24,7 @@ public class BuildingScript : MonoBehaviour {
 			childs[pos].renderer.enabled = true;
 			childs[pos+1].renderer.enabled = true;
 			childs[pos+1].particleSystem.Play();
+            audioSource.clip = poofs[Random.Range(0,4)];
             audioSource.Play();
 			pos+=2;
 		}
