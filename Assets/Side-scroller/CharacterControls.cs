@@ -55,8 +55,10 @@ public class CharacterControls : MonoBehaviour {
 			falling = true;
 			GetComponent<Animator>().SetBool("falling",true);
 			GameObject.Find("WalkingSound").GetComponent<AudioSource>().Stop();
+			AudioSource[] shits = c.gameObject.GetComponents<AudioSource>();
+			foreach(AudioSource truc in shits)
+				truc.Play();
 			cameraControls.ignoreY = false;
-			c.gameObject.GetComponent<AudioSource>().Play();
 			StartCoroutine(endLevel());
 		}
 	}
