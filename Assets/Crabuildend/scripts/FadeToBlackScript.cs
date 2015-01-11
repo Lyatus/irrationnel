@@ -23,7 +23,7 @@ public class FadeToBlackScript : MonoBehaviour {
             else
             {
                 text.enabled = true;
-                Invoke("NextScene", 5);
+                Invoke("NextScene", 4);
             }
 		}
 	}

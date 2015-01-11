@@ -7,9 +7,10 @@ public class CrabeScript : MonoBehaviour {
 	public int clickBeforeMove = 4;
 	private int nbClick = 0;
 	private Vector2 movement;
+    private Animator animator;
 	// Use this for initialization
 	void Start () {
-	
+        animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -18,6 +19,7 @@ public class CrabeScript : MonoBehaviour {
 			nbClick++;
 		if (nbClick >= clickBeforeMove) {
 			movement = new Vector2(speed.x,speed.y);
+            animator.SetBool("Moving", true);
 		}
 		
 	}
