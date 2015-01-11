@@ -9,6 +9,7 @@ public class ChuteScript : MonoBehaviour {
 	void Start () {
         movement = new Vector2(speed.x, speed.y);
         Invoke("StopMovement", 10);
+        GetComponent<Animator>().SetBool("falling", true);
 	}
 
     void StopMovement()
