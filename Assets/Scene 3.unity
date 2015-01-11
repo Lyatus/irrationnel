@@ -243,7 +243,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 606c0c3511188194db3e062c90564db7, type: 3}
   - {fileID: 8300000, guid: 89ed6679b4c4faa4a8d72fb7c1f41976, type: 3}
   - {fileID: 8300000, guid: 2ec8ebe73cb5f514398b41daaa632142, type: 3}
-  timerKeyNotPressed: 5
+  timerKeyNotPressed: 3
 --- !u!4 &1111782359
 Transform:
   m_ObjectHideFlags: 0
@@ -267,7 +267,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .600000024
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -342,8 +342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7add75c2326ca394aa684439f43bbf28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBeforeNextScene: 50
-  numberOfClicsBeforeNextScene: 200
+  timeBeforeNextScene: 30
+  numberOfClicsBeforeNextScene: 100
 --- !u!4 &1186551254
 Transform:
   m_ObjectHideFlags: 0
@@ -405,7 +405,11 @@ Prefab:
       objectReference: {fileID: 8300000, guid: 16bcc598326b0ab4e9b1d2e6276c5888, type: 3}
     - target: {fileID: 11400002, guid: fffaecbec4c1f1940af98e12f9b5954f, type: 2}
       propertyPath: timerKeyNotPressed
-      value: 5
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: fffaecbec4c1f1940af98e12f9b5954f, type: 2}
+      propertyPath: m_Volume
+      value: .600000024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fffaecbec4c1f1940af98e12f9b5954f, type: 2}
