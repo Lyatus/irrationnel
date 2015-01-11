@@ -40,6 +40,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_cubePrefab: {fileID: 400000, guid: f84f4e704da401b49bb5ac9978e72f9b, type: 2}
+  m_fartPrefab: {fileID: 400000, guid: c5de0c5748323364a8107b5b54e0c552, type: 2}
+  m_fartChance: .100000001
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
