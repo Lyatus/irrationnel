@@ -138,7 +138,7 @@ public class TextManager : MonoBehaviour
                             "la géothermie",
                             "Megan Fox",
                             "Olly le clodo",
-                            "Un mec sans doigts",
+                            "Un mec sans doigt",
                             "Tacos Man",
                             "Lamasticot",
                             "Ta mère",
