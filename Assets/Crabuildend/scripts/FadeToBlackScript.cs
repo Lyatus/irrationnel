@@ -17,15 +17,20 @@ public class FadeToBlackScript : MonoBehaviour {
 	}
 
 	void Update(){
-		if (!crabe.renderer.isVisible) {
-			if(opacity <1.0f)
-				opacity += 0.01f;
-            else
+        if (crabe != null)
+        {
+            if (!crabe.renderer.isVisible)
             {
-                text.enabled = true;
-                Invoke("NextScene", 4);
+                if (opacity < 1.0f)
+                    opacity += 0.01f;
+                else
+                {
+                    text.enabled = true;
+                    Destroy(crabe);
+                    Invoke("NextScene", 4);
+                }
             }
-		}
+        }
 	}
 
 	void FixedUpdate(){
