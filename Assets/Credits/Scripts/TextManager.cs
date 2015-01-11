@@ -99,7 +99,7 @@ public class TextManager : MonoBehaviour
 
     string GenerateText()
     {
-        bool useAName = Random.Range(0.0f, 100.0f) > 40.0f ? true : false;
+        bool useAName = Random.Range(0.0f, 100.0f) > 10.0f ? true : false;
 
 
         string myString = "";
@@ -132,7 +132,7 @@ public class TextManager : MonoBehaviour
                             "L'ombre tortueuse du crépuscule",
                             "des madeleines",
                             "Lady Day",
-                            "Les urrcates au ski",
+                            "Les surricates de la mort",
                             "Un lapin mort",
                             "Mon chat bourré",
                             "la géothermie",
@@ -144,7 +144,12 @@ public class TextManager : MonoBehaviour
                             "Ta mère",
                             "Ton père",
                             "Toutes les perruches du mondes",
-                            "Probablement toi"
+                            "Probablement toi",
+                            "Athuaricd",
+                            "btie",
+                            "Eimnem",
+                            "Hitler"
+
                          };
 
         if (useAName)
