@@ -87,6 +87,7 @@ GameObject:
   - 124: {fileID: 32228589}
   - 81: {fileID: 32228588}
   - 114: {fileID: 32228593}
+  - 167: {fileID: 32228594}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -176,6 +177,30 @@ MonoBehaviour:
   ignoreX: 0
   ignoreY: 1
   ignoreZ: 0
+--- !u!167 &32228594
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32228587}
+  m_Enabled: 1
+  m_MinDistance: 3.34862518
+  m_MaxDistance: 7.96633673
+  m_ReverbPreset: 27
+  m_Room: -2184
+  m_RoomHF: -151
+  m_DecayTime: 7.55999994
+  m_DecayHFRatio: .910000026
+  m_Reflections: -626
+  m_ReflectionsDelay: .0199999996
+  m_Reverb: 774
+  m_ReverbDelay: .0544999987
+  m_HFReference: 5000
+  m_RoomRolloffFactor: 0
+  m_Diffusion: 100
+  m_Density: 29.5
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1 &194949067
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +347,7 @@ GameObject:
   - 50: {fileID: 673791454}
   - 82: {fileID: 673791457}
   - 82: {fileID: 673791458}
+  - 167: {fileID: 673791459}
   m_Layer: 0
   m_Name: Level End
   m_TagString: Untagged
@@ -375,9 +401,9 @@ AudioSource:
   m_GameObject: {fileID: 673791453}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: bb4a34e1a4a8af0479c101cdcc05ac3a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 021dd6dbf768c7a47b66e574fae9c95c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: .298999995
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -409,7 +435,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -433,9 +459,9 @@ AudioSource:
   m_GameObject: {fileID: 673791453}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 2d47f01bf36176040a9928bb772d9aaa, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0335ecf9557652944b39a05b79b8495e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: .245000005
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -467,7 +493,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -483,6 +509,30 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!167 &673791459
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 673791453}
+  m_Enabled: 1
+  m_MinDistance: 10
+  m_MaxDistance: 32.1628647
+  m_ReverbPreset: 1
+  m_Room: -1000
+  m_RoomHF: -100
+  m_DecayTime: 1.49000001
+  m_DecayHFRatio: .829999983
+  m_Reflections: -2602
+  m_ReflectionsDelay: .00700000022
+  m_Reverb: 200
+  m_ReverbDelay: .0109999999
+  m_HFReference: 5000
+  m_RoomRolloffFactor: 0
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1 &756040100
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,9 +3123,9 @@ AudioSource:
   m_GameObject: {fileID: 1385940587}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 5ff002c1b56412c469b794c549e01717, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 70509ac53b472db478493bae1617c7a6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: .148000002
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3107,7 +3157,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3170,6 +3220,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &1385940593
 Transform:
   m_ObjectHideFlags: 0
@@ -3413,17 +3464,17 @@ AudioSource:
   m_GameObject: {fileID: 1790678316}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 09696802b0c9f6f4b9db084e78fe1d2f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: caef116e794c7244b8ebf3b85dbf86e5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .542999983
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 400
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -.200000003
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -3447,7 +3498,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0

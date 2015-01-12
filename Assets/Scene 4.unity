@@ -483,6 +483,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 91c99e1ed472db5419dd19807e0e2b08, type: 2}
+      propertyPath: m_Volume
+      value: .552999973
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 91c99e1ed472db5419dd19807e0e2b08, type: 2}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 91c99e1ed472db5419dd19807e0e2b08, type: 2}
+      propertyPath: m_eatingSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2417421e72b708d418535cf9b6ecebee, type: 3}
+    - target: {fileID: 11400000, guid: 91c99e1ed472db5419dd19807e0e2b08, type: 2}
+      propertyPath: m_eatingSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 21dcdb866c85bbe49bc35da323189d9b, type: 3}
+    - target: {fileID: 8200000, guid: 91c99e1ed472db5419dd19807e0e2b08, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ce8e124ac69e10b4bbf0aa91029bd1f1, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91c99e1ed472db5419dd19807e0e2b08, type: 2}
   m_RootGameObject: {fileID: 1854369653}
@@ -570,8 +590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_eatingSounds:
-  - {fileID: 8300000, guid: 0975d6b0c709c4841a14267dd4bb1b25, type: 3}
-  - {fileID: 8300000, guid: d8f54523c7aa14742b33f231e270d398, type: 3}
+  - {fileID: 8300000, guid: 2417421e72b708d418535cf9b6ecebee, type: 3}
+  - {fileID: 8300000, guid: 21dcdb866c85bbe49bc35da323189d9b, type: 3}
 --- !u!82 &1854369658
 AudioSource:
   m_ObjectHideFlags: 0
@@ -581,9 +601,9 @@ AudioSource:
   m_GameObject: {fileID: 1854369653}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: df96e4b2e7bc34a4e85df0e0a4188fc2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ce8e124ac69e10b4bbf0aa91029bd1f1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .600000024
+  m_Volume: .552999973
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -615,7 +635,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0

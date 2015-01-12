@@ -156,7 +156,8 @@ public class TextManager : MonoBehaviour
                             "GladOs",
                             "Une huitre",
                             "La wiimote",
-                            "Les cacahuètes"
+                            "Les cacahuètes",
+							"Simone mon Amour!",
 
                          };
 

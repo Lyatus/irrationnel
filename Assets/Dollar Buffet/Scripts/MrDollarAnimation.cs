@@ -18,7 +18,7 @@ public class MrDollarAnimation : MonoBehaviour
 		if(BigRedButton.Instance.Pressed || Input.GetKeyDown(KeyCode.Space))
 		{
 			int randomSound = Random.Range(0, m_eatingSounds.Length);
-			GetComponent<AudioSource>().PlayOneShot(m_eatingSounds[randomSound]);
+			GetComponent<AudioSource>().PlayOneShot(m_eatingSounds[randomSound], 0.32F);
 
 			m_currentFrame++;
 			if(m_currentFrame > 4) m_currentFrame = 1;

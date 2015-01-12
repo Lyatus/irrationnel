@@ -41,7 +41,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .31400001
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -49,7 +49,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -.591000021
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -73,7 +73,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -117,11 +117,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_animationTime: .583000004
   m_fartSounds:
-  - {fileID: 8300000, guid: 045794ef999c27c46a0c85a1c134525b, type: 3}
-  - {fileID: 8300000, guid: f77e5c1cb5f73f9478a487f199b2a91b, type: 3}
-  - {fileID: 8300000, guid: 159de9410e504b0418dc26ecb2ca1599, type: 3}
-  - {fileID: 8300000, guid: 57d6d5a3681c27c4d84a325723ab9518, type: 3}
-  - {fileID: 8300000, guid: 3b1b14a35bcf59846818d57a22a4eb57, type: 3}
+  - {fileID: 8300000, guid: a0579b5656a10374e967f96bac9f8191, type: 3}
+  - {fileID: 8300000, guid: 9afe7cfcd87b91c48b70941594ecb3ec, type: 3}
+  - {fileID: 8300000, guid: 4687d8a84368f0547b321966f250c89c, type: 3}
+  - {fileID: 8300000, guid: 2582de1ac64a9d94cb1f30ce5c677749, type: 3}
+  - {fileID: 8300000, guid: 2d0f0d2dbd50d5544ab1685ce78dd33c, type: 3}
+  - {fileID: 8300000, guid: 31d39e01e7f83c14e96d1def946cca6c, type: 3}
+  - {fileID: 8300000, guid: 7785b483571c1e740b1f9195e7ef0cc8, type: 3}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
