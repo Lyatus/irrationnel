@@ -19,7 +19,7 @@ public class loader : MonoBehaviour {
 
         time += Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+		if (BigRedButton.Instance.Pressed || Input.GetKeyDown(KeyCode.Space))
             ++currentNbOfCLics;
 
         if (time >= timeBeforeNextScene || currentNbOfCLics >= numberOfClicsBeforeNextScene)

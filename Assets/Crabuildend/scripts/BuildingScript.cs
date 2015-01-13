@@ -19,7 +19,7 @@ public class BuildingScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("space") && pos < maxSize)
+		if ((BigRedButton.Instance.Pressed || Input.GetKeyDown("space")) && pos < maxSize)
         {
 			childs[pos].renderer.enabled = true;
 			childs[pos+1].renderer.enabled = true;

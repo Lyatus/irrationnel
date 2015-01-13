@@ -22,7 +22,7 @@ public class CharacterControls : MonoBehaviour {
 			transform.position += new Vector3(0,-downSpeed*Time.deltaTime,0);
 		}
 		else{
-			if(Input.GetKeyDown("space") && !jumping)
+			if((BigRedButton.Instance.Pressed || Input.GetKeyDown("space")) && !jumping)
 				StartCoroutine(jump());
 		}
 		transform.position += new Vector3(leftSpeed*Time.deltaTime,0,0);

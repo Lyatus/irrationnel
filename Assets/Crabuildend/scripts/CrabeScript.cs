@@ -17,7 +17,7 @@ public class CrabeScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("space"))
+        if (BigRedButton.Instance.Pressed || Input.GetKeyDown("space"))
 			nbClick++;
 		if (nbClick == clickBeforeMove) {
 			movement = new Vector2(speed.x,speed.y);

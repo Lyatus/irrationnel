@@ -34,7 +34,7 @@ public class Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+		if (BigRedButton.Instance.Pressed || Input.GetKeyDown(KeyCode.Space))
         {
             time = 0.0f;
             randomNumber = Random.Range(0.0f, 100.0f);

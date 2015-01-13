@@ -9,7 +9,7 @@ public class InputManager : MonoBehaviour
 
 	private void Update()
 	{
-		if(m_cubePrefab && Input.GetKeyDown(KeyCode.Space))
+		if(m_cubePrefab && (BigRedButton.Instance.Pressed || Input.GetKeyDown(KeyCode.Space)))
 		{
 			Transform.Instantiate(m_cubePrefab, new Vector3(0, 0, 1), Quaternion.identity);
 
