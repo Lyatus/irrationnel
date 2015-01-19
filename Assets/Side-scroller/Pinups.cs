@@ -8,9 +8,9 @@ public class Pinups : MonoBehaviour {
 		spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 	void Update () {
-		if(Random.Range(0,200)==0)
+		if(Random.Range(0,50)==0)
 			spriteRenderer.sprite = sprites[Random.Range(0,sprites.Length-1)];
-		else
+		else if(Random.Range(0,1)==0)
 			spriteRenderer.sprite = null;
 	}
 }

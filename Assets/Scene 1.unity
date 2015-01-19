@@ -3220,7 +3220,6 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &1385940593
 Transform:
   m_ObjectHideFlags: 0
@@ -3298,13 +3297,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: bc43b5b42a5f5a7448f7677c18265ace, type: 3}
-  - {fileID: 21300000, guid: 349ef8bce0f605044b85fcc9da56f704, type: 3}
-  - {fileID: 21300000, guid: d15b408a60c28ad4d9f9469fff0cd6ed, type: 3}
-  - {fileID: 21300000, guid: 26fec385a64cbaa48a3721885b694647, type: 3}
+  - {fileID: 21300000, guid: 59ebbd86bb6c64d4c98397cac2f3765c, type: 3}
+  - {fileID: 21300000, guid: efe872996c611f345b35d0eddccc7269, type: 3}
   - {fileID: 21300000, guid: e8958befb43cb944dbeb5131f3c73d65, type: 3}
+  - {fileID: 21300000, guid: f0508792f27d3f3469ae4ff61006377c, type: 3}
+  - {fileID: 21300000, guid: 9a761f613c05d4a48a7b78ea317778e0, type: 3}
+  - {fileID: 21300000, guid: f8836ae06cef85547b965420bcb2a0e9, type: 3}
   - {fileID: 21300000, guid: 737607d954fd3a049ba1f250c57514c0, type: 3}
-  - {fileID: 21300000, guid: be9e5d47216da1d4b804bf716f6bd6c5, type: 3}
+  - {fileID: 21300000, guid: 7e0d19e3d1923c34a82fb3b4c89df3c0, type: 3}
 --- !u!1 &1606761190
 GameObject:
   m_ObjectHideFlags: 0
